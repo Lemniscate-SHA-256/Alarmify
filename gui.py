@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets, uic
-from spotify_api.py import SpotifyAPI
+from spotify_api import SpotifyAPI
 from alarm import Alarm
 
 class AlarmApp(QtWidgets.QMainWindow):
